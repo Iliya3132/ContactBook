@@ -3,7 +3,7 @@
 #define CCONTACT_H
 
 #include <QString>
-#include <QDebug>
+
 
 class Ccontact // Класс для хранения информации о контакте
 {
@@ -16,9 +16,6 @@ public:
     void setContact(QString  n_name, QString n_phone);
     QString getName() const;
     QString getPhone() const;
-signals:
-
-public slots:
 
 private:
     QString  name;

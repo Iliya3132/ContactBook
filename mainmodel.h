@@ -3,7 +3,6 @@
 #define MAINMODEL_H
 
 #include <QAbstractListModel>
-#include <QDebug>
 #include <QList>
 #include <memory>
 #include "ccontact.h"
